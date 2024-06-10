@@ -566,6 +566,10 @@ video {
   border-width: 0;
 }
 
+.fixed {
+  position: fixed;
+}
+
 .absolute {
   position: absolute;
 }
@@ -606,6 +610,14 @@ video {
   left: 50%;
 }
 
+.left-0 {
+  left: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
 .isolate {
   isolation: isolate;
 }
@@ -616,6 +628,10 @@ video {
 
 .-z-10 {
   z-index: -10;
+}
+
+.z-50 {
+  z-index: 50;
 }
 
 .mx-auto {
@@ -693,6 +709,11 @@ video {
 
 .aspect-\[1097\/845\] {
   aspect-ratio: 1097/845;
+}
+
+.size-6 {
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .h-10 {
